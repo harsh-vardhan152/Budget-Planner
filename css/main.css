@@ -1,0 +1,88 @@
+/* import the font from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+.heading {
+    text-align: left;
+    font-family: Ubuntu;
+}
+
+.main div {
+    align-items: center;
+}
+
+.budget-tracker {
+    border-collapse: collapse;
+    min-width: 750px;
+    text-align: center;
+}
+
+.budget-tracker * {
+    font-family: ubuntu;
+}
+
+.budget-tracker tr {
+    align-items: center;
+}
+
+.budget-tracker th {
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #009592;
+}
+
+.budget-tracker td {
+    padding: 5px;
+}
+
+.input,
+.delete-entry {
+    height: 30px;
+    font-size: 13px;
+    padding: 0 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #bbbbbb;
+}
+
+.delete-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background: none;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.delete-entry:hover {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.controls,
+.summary {
+    text-align: right;
+    color: rgb(5, 84, 68);
+}
+
+.new-entry {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkseagreen;
+    border-color: green;
+}
+
+.new-entry:hover {
+    background-color: #0e8258;
+}
